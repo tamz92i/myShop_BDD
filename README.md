@@ -1,5 +1,3 @@
-Collecte des informations sur l’espace de travail# MyShop - Gestion de Base de Données
-
 ## 📋 Vue d'ensemble
 
 Ce dépôt contient les scripts SQL pour la base de données de l'application MyShop, une plateforme e-commerce. La base de données gère les utilisateurs, les produits, les commandes et leurs relations.
