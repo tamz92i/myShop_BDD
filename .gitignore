@@ -1,39 +1,39 @@
-# Fichiers système macOS
+# Fichiers système
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
-# Fichiers de miniatures
-._*
-
-# Répertoires de l'éditeur VSCode
-.vscode/
-
-# Fichiers de logs
-*.log
-
-# Fichiers temporaires ou de sauvegarde
-*~
-*.swp
-*.swo
-
-# Fichiers de sortie éventuels
-*.out
-
-# Variables d'environnement
-.env
-
-# Répertoires d'environnements virtuels Python
+# Environnements virtuels et dépendances
 venv/
 env/
-
-# Dépendances Node.js
 node_modules/
 
-# Fichiers de configuration d'IDE JetBrains (WebStorm, PyCharm, etc.)
+# Fichiers d'IDE (sauf .vscode partagée intentionnellement)
 .idea/
+*.swp
+*.swo
+*~
 
-# Fichiers générés par des outils de tests ou de build
-coverage/
-dist/
-build/
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+dump.sql
+backup*.sql
+postgres-data/
+
+# Fichiers de configuration locaux
+.env
+config.local.json
+*.local.conf
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+temp/
+tmp/
+
+# Dumps et sauvegardes
+*.dump
+*.bak
